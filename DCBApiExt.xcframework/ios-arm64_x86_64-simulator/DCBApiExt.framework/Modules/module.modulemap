@@ -1,0 +1,4 @@
+framework module DCBApiExt {
+  header "DCBApiExt-Swift.h"
+  requires objc
+}
