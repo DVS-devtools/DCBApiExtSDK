@@ -28,6 +28,9 @@ extension DCBApiExt.DCBUserManager {
   }
   public class func refreshMenuItems()
 }
+extension DCBApiExt.DCBUserManager {
+  public func finalizeRecognitionFlow(_ wcompletion: @escaping DCBApiExt.DCBUserManagerCheckCompletion)
+}
 extension Swift.String {
   public func addingPercentEncodingForRFC3986() -> Swift.String
   public func getQueryStringValue(for key: Swift.String) -> Swift.String?
